@@ -6,9 +6,12 @@ import { FaMonero } from "react-icons/fa"
 const Navigation = () => {
   
     return (
-        <div className="">
-            <div className="navbar fixed z-10 bg-slate-900 text-white ">
-  <div className="navbar-start">
+   <div className="bg-slate-900   fixed z-10 h-16 w-full">
+
+         <div className=" max-w-screen-2xl mx-auto">
+            <div className="navbar max-w-screen-2xl   bg-opacity-50 text-white ">
+
+ <div className="navbar-start  ">
     <div className="dropdown ">
       <label tabIndex={0} className="btn btn-ghost lg:hidden ">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -35,14 +38,16 @@ const Navigation = () => {
   <div className="navbar-end">
   <a href="Muksana's_Resume.pdf" download="Muksana's_Resume.pdf" >
   <button className="btn text-white btn-primary bg-gradient-to-r from-blue-600 to-slate-800 hover:bg-gradient-to-r hover:from-slate-800 hover:to-blue-600 hover:border-white border border-transparent mr-5">
-  <FontAwesomeIcon icon={faDownload} /> Download Resume
+  <FontAwesomeIcon icon={faDownload} />Resume
   </button>
     
   </a>
   
 </div>
+ </div>
 </div>
-        </div>
+   </div>
+      
     )
 }
 

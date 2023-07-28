@@ -4,6 +4,7 @@ import toy from '../assets/toy-house.jpg'
 import chef from '../assets/Korean Kitchen.jpg'
 import music from '../assets/Melody Master.jpg'
 import './project.css'
+import Tilt from 'react-parallax-tilt';
 import { FaCode, FaLink } from 'react-icons/fa';
 import { Fade } from 'react-reveal';
 <script>
@@ -47,9 +48,10 @@ const Projects = () => {
             <h2 className='p-5 w-52 mx-auto text-center mb-5 text-5xl  text-white font-bold  border-b-4  border-b-yellow-500 '>Projects</h2>
             </div>
             <div className='bg-slate-900 max-w-screen-2xl mx-auto grid md:grid-cols-3 px-3 items-center gap-5 justify-items-center'>
-                <div className='p-3 bg-slate-600 my-8 shadow-2xl'>
+            <Tilt> <div className='p-3 bg-slate-600 my-8 shadow-2xl'>
                     <Fade>
-                <ReactCardFlip data-aos="fade-up"   isFlipped={isFlipped} flipDirection="vertical">
+                     
+                        <ReactCardFlip data-aos="fade-up"   isFlipped={isFlipped} flipDirection="vertical">
        
        <div   >
        <p className='font-bold text-white py-4 text-lg'>Toy Market <br /> (A toy house full of animal toys)</p>
@@ -80,10 +82,14 @@ const Projects = () => {
       </div>
   
    </ReactCardFlip>
+                    
+                
    </Fade>
                 </div>
-        
+                </Tilt>
+                <Tilt>
      <div className='p-3 bg-slate-600 my-8 shadow-2xl' >
+     
      <ReactCardFlip data-aos="fade-up"   isFlipped={isFlippeds} flipDirection="vertical">
        
        <div  >
@@ -116,7 +122,10 @@ const Projects = () => {
   
    </ReactCardFlip>
      </div>
+     </Tilt>
+     <Tilt>
       <div className='p-3 bg-slate-600 my-8 shadow-2xl' >
+        <Tilt></Tilt>
         <ReactCardFlip data-aos="fade-up"  isFlipped={isFlippedss} flipDirection="vertical">
        
        <div   >
@@ -147,8 +156,9 @@ const Projects = () => {
        <button className="btn my-5 text-white w-30  px-5 py-3  btn-primary bg-gradient-to-r from-blue-600 to-slate-800 hover:bg-gradient-to-r hover:from-slate-800 hover:to-blue-600 hover:border-white border border-transparent mr-5"  onClick={handleClickss}>Back</button>
       </div>
   
-   </ReactCardFlip></div>
+   </ReactCardFlip></div></Tilt>
             </div>
+            
         </div>
         </Fade>
     )

@@ -12,7 +12,9 @@ const Home = () => {
 
     return (
         <div id="home" className=' '>
-            <Navigation></Navigation>
+           <div className='bg-slate-900'>
+           <Navigation></Navigation>
+           </div>
             <Banner></Banner>
             
              <About></About>

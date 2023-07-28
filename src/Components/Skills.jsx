@@ -12,6 +12,7 @@ import git from '../assets/git.png'
 import figma from '../assets/figma.png'
 import { useEffect } from 'react';
 import AOS from 'aos';
+import Tilt from 'react-parallax-tilt';
 import 'aos/dist/aos.css';
 import { Fade } from 'react-reveal';
 const Skills = () => {
@@ -27,54 +28,57 @@ const Skills = () => {
             <div className="skills-section max-w-screen-2xl mx-auto grid-cols-5">
       <h2 className='p-5 w-52 mx-auto text-center mb-5 text-5xl  text-white font-bold  border-b-4  border-b-yellow-500 '>Skills</h2>
       <div className='grid gap-5 lg:grid-cols-6 md:grid-cols-3 grid-cols-2  mx-5 mb-10 '>
-        <div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        <Tilt><div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className=' p-5 ' src={html} alt="" />
           <p className='text-white text-center text-2xl font-bold pb-3'>HTML5</p>
-        </div>
-        <div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className=' p-3' src={css} alt="" />
           <p className='text-white text-center text-2xl font-bold'>CSS</p>
-        </div>
-        <div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className=' p-3' src={bootstrap} alt="" />
           <p className='text-white text-center text-2xl font-bold'>Bootstrap</p>
-        </div>
-        <div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className='p-3' src={tailwind} alt="" />
           <p className='text-white text-center text-2xl font-bold'>Tailwind</p>
-        </div>
-        <div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className=' p-3' src={js} alt="" />
           <p className='text-white text-center text-2xl font-bold'>JavaScript</p>
-        </div>
-        <div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className=' p-5 ' src={reactIcon} alt="" />
           <p className='text-white text-center text-2xl pb-3 font-bold'>React</p>
-        </div>
-        <div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className=' p-3' src={nodejs} alt="" />
           <p className='text-white text-center text-2xl font-bold'>Node.Js</p>
-        </div>
-        <div data-aos="flip-left" className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left" className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className=' p-3' src={expressjs} alt="" />
           <p className='text-white text-center text-2xl pb-3 font-bold'>Express.Js</p>
-        </div>
-        <div data-aos="flip-left" className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
-          <img className='p-3' src={firebase} alt="" />
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left" className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+          <img className='p-3 w-full mb-4' src={firebase} alt="" />
           <p className='text-white text-center text-2xl font-bold'>Firebase</p>
-        </div>
-        <div data-aos="flip-left" className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left" className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className='w-full p-3' src={mongodb} alt="" />
           <p className='text-white text-center text-2xl pb-3 font-bold'>MongoDb</p>
-        </div>
-        <div data-aos="flip-left" className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
+        </div></Tilt>
+        <Tilt><div data-aos="flip-left" className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
           <img className='w-full p-3' src={git} alt="" />
           <p className='text-white text-center text-2xl pb-3 font-bold'>GitHub</p>
-        </div>
+        </div></Tilt>
+        <Tilt>
         <div data-aos="flip-left" className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>
-          <img className='w-full p-3' src={figma} alt="" />
+          <img className='w-full md:h-32 mb-8 p-3' src={figma} alt="" />
           <p className='text-white text-center text-2xl pb-3 font-bold'>Figma</p>
         </div>
+        </Tilt>
+        
       </div>
       
     </div>
