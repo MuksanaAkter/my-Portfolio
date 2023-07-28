@@ -25,9 +25,9 @@ const About = () => {
   return (
     <div id='about'  className='bg-slate-900 py-10'>
   
-      <div data-aos="fade-up" className=" h-auto pb-10 py-10 px-5 ">
+      <div className=" h-auto pb-10 py-10 px-5 ">
       <Fade buttom >
-       <div className=" max-w-7xl mx-auto flex md:flex-row  gap-10 flex-col justify-center items-center">
+       <div className=" max-w-screen-2xl mx-auto flex md:flex-row  gap-10 flex-col justify-center items-center">
        <div data-aos="fade-up"  className="bg-cover bg-center ">
 
        <Lottie animationData={about} loop={true} />;
@@ -35,7 +35,7 @@ const About = () => {
         </div>
         <div data-aos="fade-up"   className="text-2xl px-4 md-px-10 text-white text-center md:text-left md:w-1/2 ">
         <h2 className='p-3 w-52  text-center mb-5 text-3xl  text-white font-bold  border-b-4  border-b-yellow-500 '>ABOUT ME</h2>
-        <p className='text-base py-6 text-justify pr-5'>Hi, My name is Muksana Akter and I am a front-end developer. I am basically from Sylhet but I am currently live in Chittagong for study purpose. I am currently studying bsc in computer science engineering from International Islamic university. As a front-end developer, I have worked on many projects where I developed responsive and user-friendly interfaces using HTML, CSS, JavaScript etc. I also have experience with popular front-end frameworks like React. I have recently completed a Full stack Web Development course on Programing Hero. where I gained knowledge in both front-end and back- end technologies. I learned how to build dynamic website, handle server-side programming with Node.js Express.js, and work with databases like momgodb.</p>
+        <p className='text-base py-6 text-justify md:pr-5'>Hi, My name is Muksana Akter and I am a front-end developer. I am basically from Sylhet but I am currently live in Chittagong for study purpose. I am currently studying bsc in computer science engineering from International Islamic university. As a front-end developer, I have worked on many projects where I developed responsive and user-friendly interfaces using HTML, CSS, JavaScript etc. I also have experience with popular front-end frameworks like React. I have recently completed a Full stack Web Development course on Programing Hero. where I gained knowledge in both front-end and back- end technologies. I learned how to build dynamic website, handle server-side programming with Node.js Express.js, and work with databases like momgodb.</p>
 
         
         <a href="Muksana's_Resume.pdf" download="Muksana's_Resume.pdf" >

@@ -24,7 +24,7 @@ const Skills = () => {
     return (
         <div className='bg-slate-800 py-10'>
           <Fade bottom >
-            <div className="skills-section grid-cols-5">
+            <div className="skills-section max-w-screen-2xl mx-auto grid-cols-5">
       <h2 className='p-5 w-52 mx-auto text-center mb-5 text-5xl  text-white font-bold  border-b-4  border-b-yellow-500 '>Skills</h2>
       <div className='grid gap-5 lg:grid-cols-6 md:grid-cols-3 grid-cols-2  mx-5 mb-10 '>
         <div data-aos="flip-left"  className=' bg-slate-900 shadow-2xl rounded-xl text-center p-3 m-3'>

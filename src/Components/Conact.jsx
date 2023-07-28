@@ -26,11 +26,12 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' data-aos="fade-up"  className='grid md:grid-cols-2 gap-5 py-12  bg-slate-700'>
+       <div className='bg-slate-700'> 
+         <div id='contact' data-aos="fade-up"  className='grid max-w-screen-2xl mx-auto md:grid-cols-2 gap-5 py-12  bg-slate-700'>
             <div>
                 
                 <div data-aos="fade-up"    className='p-8'>
-                <Lottie animationData={contact} loop={true} />;
+                <Lottie animationData={contact} loop={true} />
                 </div>
                 <div>
                     {/* <FaLocationArrow></FaLocationArrow>
@@ -54,6 +55,7 @@ const Contact = () => {
     </form>
             </div>
         </div>
+       </div>
     )
 }
 

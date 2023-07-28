@@ -3,7 +3,7 @@
     scroll-behavior: auto;
     scrollbar-width: 3px;
     scrollbar-color: rgb(31, 31, 59); 
-    width: 350px; /* Adjust the width as needed */
+    /* Adjust the width as needed */
     height: 250px; /* Adjust the height as needed */
     background-position: top;
   }

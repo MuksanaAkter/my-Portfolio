@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
-import toy from '../assets/toy-house-7db48.web.app.png'
-import chef from '../assets/Korean Kitchen - chef-recipe-hunter-3c32e.web.app.png'
-import music from '../assets/Melody Master - music-instruments-a7055.web.app.png'
+import toy from '../assets/toy-house.jpg'
+import chef from '../assets/Korean Kitchen.jpg'
+import music from '../assets/Melody Master.jpg'
 import './project.css'
 import { FaCode, FaLink } from 'react-icons/fa';
 import { Fade } from 'react-reveal';
@@ -46,12 +46,12 @@ const Projects = () => {
             <div>
             <h2 className='p-5 w-52 mx-auto text-center mb-5 text-5xl  text-white font-bold  border-b-4  border-b-yellow-500 '>Projects</h2>
             </div>
-            <div className='bg-slate-900 grid md:grid-cols-3  mx-4 items-center gap-5 justify-items-center'>
+            <div className='bg-slate-900 max-w-screen-2xl mx-auto grid md:grid-cols-3 px-3 items-center gap-5 justify-items-center'>
                 <div className='p-3 bg-slate-600 my-8 shadow-2xl'>
                     <Fade>
                 <ReactCardFlip data-aos="fade-up"   isFlipped={isFlipped} flipDirection="vertical">
        
-       <div data-aos="fade-up"    >
+       <div   >
        <p className='font-bold text-white py-4 text-lg'>Toy Market <br /> (A toy house full of animal toys)</p>
       <div  className='image-container'>
        
@@ -86,7 +86,7 @@ const Projects = () => {
      <div className='p-3 bg-slate-600 my-8 shadow-2xl' >
      <ReactCardFlip data-aos="fade-up"   isFlipped={isFlippeds} flipDirection="vertical">
        
-       <div data-aos="fade-up" >
+       <div  >
        <p className='font-bold text-white py-4 text-lg'>Korean kitchen <br /> (Korean food and Chef details)</p>
       <div  className='image-container'>
        
@@ -119,7 +119,7 @@ const Projects = () => {
       <div className='p-3 bg-slate-600 my-8 shadow-2xl' >
         <ReactCardFlip data-aos="fade-up"  isFlipped={isFlippedss} flipDirection="vertical">
        
-       <div data-aos="fade-up"   >
+       <div   >
        <p className='font-bold text-white py-4 text-lg'>Melody Master <br /> (Learning Musical Instruments)</p>
       <div  className='image-container'>
        
