@@ -30,7 +30,7 @@ const About = () => {
        <div className=" max-w-screen-2xl mx-auto flex md:flex-row  gap-10 flex-col justify-center items-center">
        <div data-aos="fade-up"  className="bg-cover bg-center ">
 
-       <Lottie animationData={about} loop={true} />;
+       <Lottie animationData={about} loop={true} />
 
         </div>
         <div data-aos="fade-up"   className="text-2xl px-4 md-px-10 text-white text-center md:text-left md:w-1/2 ">

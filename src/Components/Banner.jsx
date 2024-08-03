@@ -61,7 +61,7 @@ const Banner = () => {
               
         <div className="bg-cover bg-center animate__animated   animate__fadeInRight">
 
-        <Lottie className='w-96 m-10' animationData={banner} loop={true} />;
+        <Lottie className='w-96 m-10' animationData={banner} loop={true} />
 
         </div>
        </div>
